@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body{
+    background-image: url(imagens\fundo-cinza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ---- Header ---- */
+header {
+    align-items: center;
+    box-shadow: 3px 3px 10px rgb(170, 2, 2);
+    
+}
+
+.logo-furlan{
+    padding-left: 5%;
+    padding-top: 1%;
+    width: 6%;
+}
+
+
+
+/* ---- Main ---- */
+
+nav {
+    background-color: grey;
+
+}
+
+footer {
+    padding-left: 15%;
+    text-align: left;
+    align-items: left;
+    height: auto;
+    width: auto;
+}
+
+img{
+    width: 35%;
+    height: 30%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 2fr));
+    grid-gap: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.grid div{
+    border-radius: 20px;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.grid img{
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    box-shadow: 3px 3px 15px rgb(170, 2, 2);
+}
