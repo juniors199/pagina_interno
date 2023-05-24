@@ -1,7 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
-    border: 0;
+
 
 }
 body{
@@ -13,19 +12,44 @@ body{
 }
 
 /* ---- Header ---- */
+
 header {
-    align-items: center;
-    
     background-color: rgb(161, 35, 20);
+    display: flex;
+    width: auto;
+    height: 4rem;
+    justify-content: space-between;
     
 }
 
 .logo-furlan{
     align-items: center;
-    width: 100%;
-    padding: 2%;
-    width: 8%;
-    display: flex;
+    padding: 0.5rem;
+    width: 5rem;
+    height: 80%;
+     display: flex;
+     margin-left: 1.5rem;
+}
+
+.chamado {
+    font-weight: 700;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    margin: 1rem;
+    border: none;
+    box-shadow: 0 3px 5px black;
+}
+
+.chamado:hover{
+    text-decoration-color: white;
+    box-shadow: 2px 5px 7px black;
+    background-color: rgb(102, 28, 19);
+}
+
+.chamado:active{
+    position:relative;
+    top:5px;
+    box-shadow: none;
 }
 
 
@@ -49,7 +73,7 @@ img{
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(170px, 3fr));
-    grid-gap: 20px;
+    grid-gap: 50px;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -63,10 +87,9 @@ img{
 
 
 .grid img{
-    border-radius: 20px;
-    width: 99.9%;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
     height: 60%;
-  
 }
 
 .btn-menus {
@@ -74,10 +97,24 @@ img{
     background-color: rgb(245, 245, 247);
     background-repeat: no-repeat;
     background-size:cover;
+    border-radius: 20px 20px 0 0;
     border-radius: 20px;
     font-size: 1.3rem;
-    cursor: pointer;
-    
+    cursor: pointer;  
+}
+
+.btn-menus:hover{
+    text-decoration-color: white;
+    box-shadow: 5px 10px 10px black;
+    background-color: rgb(247, 247, 249);
+    border-top-width: 20px;
+    border-top-width: 10px;
+}
+
+.btn-menus:active{
+    position:relative;
+    top:5px;
+    box-shadow: none;
 }
 
 
